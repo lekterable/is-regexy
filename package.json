@@ -1,7 +1,7 @@
 {
   "name": "is-regexy",
-  "version": "1.0.0-alpha",
-  "description": "Check if a string could be a valid regex expression",
+  "version": "1.0.0",
+  "description": "Check if a string could be a regex expression",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/lekterable/is-regexy/issues"
   },
-  "homepage": "https://github.com/lekterable/is-regexy#readme"
+  "homepage": "https://github.com/lekterable/is-regexy#readme",
+  "dependencies": {
+    "is-regex": "^1.0.5"
+  }
 }
