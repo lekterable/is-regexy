@@ -1,7 +1,7 @@
 {
   "name": "is-regexy",
   "version": "1.0.0",
-  "description": "Check if a string could be a regex expression",
+  "description": "Check if a string could be a regular expression",
   "main": "index.js",
   "scripts": {
     "test": "jest"
