@@ -1,0 +1,25 @@
+{
+  "name": "is-regexy",
+  "version": "1.0.0-alpha",
+  "description": "Check if a string could be a valid regex expression",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lekterable/is-regexy.git"
+  },
+  "keywords": [
+    "regex",
+    "regexp",
+    "regexy",
+    "is",
+    "test",
+    "regular",
+    "expression"
+  ],
+  "author": "Kornel Dubieniecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lekterable/is-regexy/issues"
+  },
+  "homepage": "https://github.com/lekterable/is-regexy#readme"
+}
