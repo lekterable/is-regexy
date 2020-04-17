@@ -4,7 +4,9 @@
   "description": "Check if a string could be a regular expression",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --collectCoverage",
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
     "is-regex": "^1.0.5"
   },
   "devDependencies": {
+    "codecov": "^3.6.5",
     "jest": "^25.3.0"
   }
 }
