@@ -1,12 +1,13 @@
 {
   "name": "is-regexy",
-  "version": "1.0.0",
+  "version": "0.0.0-semantic-release",
   "description": "Check if a string could be a regular expression",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --collectCoverage",
-    "codecov": "codecov"
+    "codecov": "codecov",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "codecov": "^3.6.5",
-    "jest": "^25.3.0"
+    "jest": "^25.3.0",
+    "semantic-release": "^17.0.6"
   }
 }
