@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Check if a string could be a regex expression",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lekterable/is-regexy.git"
@@ -24,5 +27,8 @@
   "homepage": "https://github.com/lekterable/is-regexy#readme",
   "dependencies": {
     "is-regex": "^1.0.5"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0"
   }
 }
