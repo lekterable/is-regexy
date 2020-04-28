@@ -1,4 +1,4 @@
-# Latest
+# 1.0.0
 
 ## Features
 
@@ -6,6 +6,7 @@
 
 ## Misc
 
+- use perfekt for version and release management 4554ee31
 - use semantic release to version package 9157029e
 - configure travis d186a31c
 - update repository url 534a2881

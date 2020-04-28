@@ -1,6 +1,6 @@
 {
   "name": "is-regexy",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Check if a string could be a regular expression",
   "main": "index.js",
   "scripts": {
