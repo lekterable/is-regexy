@@ -1,6 +1,6 @@
 {
   "name": "is-regexy",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.1",
   "description": "Check if a string could be a regular expression",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,6 @@
   },
   "devDependencies": {
     "codecov": "^3.6.5",
-    "jest": "^25.3.0",
-    "semantic-release": "^17.0.6"
+    "jest": "^25.3.0"
   }
 }
