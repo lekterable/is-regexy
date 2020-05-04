@@ -2,14 +2,26 @@ const isRegexy = require('../')
 
 describe('isRegexy', () => {
   it('should validate Regex object', () => {
-    expect(isRegexy(/development/)).toBe(true)
+    expect(isRegexy(new RegExp('development'))).toBe(true)
   })
 
   it('should validate Regex object with flag', () => {
-    expect(isRegexy(/development/i)).toBe(true)
+    expect(isRegexy(new RegExp('development', 'i'))).toBe(true)
   })
 
   it('should validate Regex object with multiple flags', () => {
+    expect(isRegexy(new RegExp('development', 'gi'))).toBe(true)
+  })
+
+  it('should validate Regex pattern', () => {
+    expect(isRegexy(/development/)).toBe(true)
+  })
+
+  it('should validate Regex pattern with flag', () => {
+    expect(isRegexy(/development/i)).toBe(true)
+  })
+
+  it('should validate Regex pattern with multiple flags', () => {
     expect(isRegexy(/development/gi)).toBe(true)
   })
 
