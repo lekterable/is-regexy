@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --collectCoverage",
-    "codecov": "codecov",
-    "semantic-release": "semantic-release"
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
