@@ -21,6 +21,10 @@ describe('isRegexy', () => {
     expect(isRegexy('/development/')).toBe(true)
   })
 
+  it('should validate complex Regex string', () => {
+    expect(isRegexy('/(epic|feat|fix|chore)/DEV-\\d{4}/i')).toBe(true)
+  })
+
   it('should validate Regex string with flag', () => {
     expect(isRegexy('/development/i')).toBe(true)
   })
