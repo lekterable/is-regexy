@@ -1,3 +1,16 @@
+# 1.0.1
+
+## Misc
+
+- regenerate CHANGELOG [08a27a49](https://github.com/lekterable/is-regexy/commit/08a27a492f3bdd9349552d8c1326af1d5b5bdea7)
+- update perfekt config [44301f22](https://github.com/lekterable/is-regexy/commit/44301f22f00fd45d41bd3ad8d44d589a49f4876b)
+- remove unused command [37349e68](https://github.com/lekterable/is-regexy/commit/37349e68bf202674f61ea5d6ae6d4b5209070d59)
+- remove semantic-release leftovers [3dcdf35d](https://github.com/lekterable/is-regexy/commit/3dcdf35de6388b73d3b8dfcf2f9e2d6005d43d52)
+- update README [5119e41e](https://github.com/lekterable/is-regexy/commit/5119e41ec6044501b9caf03e198a54220717a1e0)
+- add test with Regex object [c2391313](https://github.com/lekterable/is-regexy/commit/c239131389afaca139f779202f81d945fee784d4)
+- add more complex regex test [bdf771c6](https://github.com/lekterable/is-regexy/commit/bdf771c694e5e9005319abc4440669859b4dbc0d)
+- bump jest from 25.3.0 to 25.5.4 (#5) [b3f65319](https://github.com/lekterable/is-regexy/commit/b3f6531983524ffde6a9312c2d77336a11b87eb0)
+
 # 1.0.0
 
 ## Features
