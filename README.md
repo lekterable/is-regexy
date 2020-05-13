@@ -1,4 +1,4 @@
-# is-regexy ![npm](https://img.shields.io/npm/v/is-regexy) ![Travis (.org)](https://img.shields.io/travis/lekterable/is-regexy) [![codecov](https://codecov.io/gh/lekterable/is-regexy/branch/master/graph/badge.svg)](https://codecov.io/gh/lekterable/is-regexy) [![management: perfekt👌](https://img.shields.io/badge/management-perfekt👌-red.svg?style=flat-square)](https://github.com/lekterable/perfekt)
+# is-regexy [![npm](https://img.shields.io/npm/v/is-regexy)](https://www.npmjs.com/package/is-regexy) [![build](https://img.shields.io/travis/lekterable/is-regexy)](https://travis-ci.com/github/lekterable/is-regexy) [![codecov](https://codecov.io/gh/lekterable/is-regexy/branch/master/graph/badge.svg)](https://codecov.io/gh/lekterable/is-regexy) [![management: perfekt👌](https://img.shields.io/badge/management-perfekt👌-red.svg?style=flat-square)](https://github.com/lekterable/perfekt)
 
 A very simple library for checking if given value (Regex object OR string) could be a valid regular expression.
 
@@ -7,16 +7,16 @@ Useful when we want to allow users to pass regex patterns as user input.
 ## Example
 
 ```js
-const isRegex = require('is-regex') // CommonJS
+const isRegexy = require('is-regexy') // CommonJS
 // OR
-import isRegex from 'is-regex' // ES modules
+import isRegexy from 'is-regexy' // ES modules
 
-isRegex('foo') // false
+isRegexy('foo') // false
 
-isRegex(/foo/) // true
-isRegex(new RegExp('foo')) // true
-isRegex('/foo/') // true
-isRegex('/foo/ig') // true
+isRegexy(/foo/) // true
+isRegexy(new RegExp('foo')) // true
+isRegexy('/foo/') // true
+isRegexy('/foo/ig') // true
 isRegexy('/(epic|feat|fix|chore)/DEV-\\d{4}/i') //true
 ```
 
