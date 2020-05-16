@@ -1,3 +1,10 @@
+# 1.0.3
+
+## Misc
+
+- update README [37f45441](https://github.com/lekterable/is-regexy/commit/37f45441b309e174430e6559d1f06a19ce81c034)
+- bump jest from 25.5.4 to 26.0.1 (#6) [9d703175](https://github.com/lekterable/is-regexy/commit/9d70317522e539fd905423533b4e9d5eaa4c4aa4)
+
 # 1.0.1
 
 ## Misc
