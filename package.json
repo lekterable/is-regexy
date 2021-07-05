@@ -30,6 +30,6 @@
     "is-regex": "^1.0.5"
   },
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^27.0.6"
   }
 }
