@@ -1,8 +1,8 @@
 # is-regexy [![npm](https://img.shields.io/npm/v/is-regexy)](https://www.npmjs.com/package/is-regexy) [![build](https://img.shields.io/travis/lekterable/is-regexy)](https://travis-ci.com/github/lekterable/is-regexy) [![codecov](https://codecov.io/gh/lekterable/is-regexy/branch/master/graph/badge.svg)](https://codecov.io/gh/lekterable/is-regexy) [![management: perfekt👌](https://img.shields.io/badge/management-perfekt👌-red.svg?style=flat-square)](https://github.com/lekterable/perfekt)
 
-A very simple library for checking if given value (Regex object OR string) could be a valid regular expression.
+A very simple library for checking if a given value (Regex object OR string) is a valid regular expression.
 
-Useful when we want to allow users to pass regex patterns as user input.
+Useful when you want to allow users to pass regex patterns as input.
 
 ## Example
 

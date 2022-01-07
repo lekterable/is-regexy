@@ -1,4 +1,4 @@
-const isRegexy = require('../')
+import isRegexy from '.'
 
 describe('isRegexy', () => {
   it('should validate Regex object', () => {
