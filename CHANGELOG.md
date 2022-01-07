@@ -1,3 +1,9 @@
+# 2.0.0
+
+## BREAKING
+
+- rewrite project in typescript [2a336d99](https://github.com/lekterable/is-regexy/commit/2a336d9986f22c281177395e072927c97c892a75)
+
 # 1.0.3
 
 ## Misc
